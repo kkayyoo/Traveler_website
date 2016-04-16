@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html ng-app="travelBook" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Plan Your Trips</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.gitcdn.link/cdn/angular/bower-material/v1.1.0-rc4/angular-material.css">
+    <link rel="stylesheet" href="https://material.angularjs.org/1.1.0-rc4/docs.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/trips.css">
+    
+  </head>
+  <body>
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header page-scroll">
+          
+          <button type="button" class="navbar-toggle" data-toggle="collapse"
+          data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand page-scroll" href="#topContainer" >Traveler</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          
+          <ul class="nav navbar-nav" id="menu">
+            
+            <li class="current"><a class="page-scroll" href="#topContainer">Home</a></li>
+            <li><a class="page-scroll" href="#step2">Views</a></li>
+            <li><a class="page-scroll" href="#step3">Schedule</a></li>
+            <!--<li><a class="page-scroll" href="#step4">Review</a></li>-->
+          </ul>
+          <form class="navbar-form navbar-right form-inline">
+            <div class="form-group">
+              <input type="email" placeholder="Email" class="form-control" />
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control" />
+            </div>
+            <button type="submit" class="btn btn-success">Log In</button>
+            
+          </form>
+        </div>
+      </div>
+    </div>
+    <section id="step1">
+      <div class="container contentContainer" id="topContainer">
+        
+        <div class="row">
+          
+          <div class="col-md-6 col-md-offset-3" id="toprow">
+            <h1>Plan Your Trips</h1>
+            <p class="lead" id="subtitle">Start your trips without hesitate.</p>
+            <form>
+              <div class="input-group">
+                <span class="input-group-addon"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span></span>
+                <input type="location" class="form-control" placeholder="Where do you want to go?" />
+              </div>
+              <input type="submit" class="btn btn-success btn-lg marginTop" value="Let's go"/>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="step2">
+      <div class="container contentContainer step2" >
+        <div class="row">
+          <div class="colorRow">
+          </div>
+        </div>
+        <h1>Find Your Interests</h1>
+        <div class="row">
+          <div class="col-md-3 col-sm-6 city-view">
+            
+            <img src="img/162_1.jpg" class="img-responsive" alt="">
+            
+            <div class="portfolio-caption">
+              <h4>Center Station</h4>
+              <form><input type="checkbox" name="places" value="city"> Want to go</form>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 city-view">
+            
+            <img src="img/199_1.jpg" class="img-responsive" alt="">
+            
+            <div class="portfolio-caption">
+              <h4>Common Square</h4>
+              <form><input type="checkbox" name="places" value="city"> Want to go</form>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 city-view">
+            
+            <img src="img/201_1.jpg" class="img-responsive" alt="">
+            
+            <div class="portfolio-caption">
+              <h4>Blue House</h4>
+              <form><input type="checkbox" name="places" value="city"> Want to go</form>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 city-view">
+            
+            <img src="img/224_1.jpg" class="img-responsive" alt="">
+            
+            <div class="portfolio-caption">
+              <h4>Spring Fall</h4>
+              <form><input type="checkbox" name="places" value="city"> Want to go</form>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 city-view">
+            
+            <img src="img/225_1.jpg" class="img-responsive" alt="">
+            
+            <div class="portfolio-caption">
+              <h4>River Side</h4>
+              <form><input type="checkbox" name="places" value="city"> Want to go</form>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 city-view">
+            
+            <img src="img/249_1.jpg" class="img-responsive" alt="">
+            
+            <div class="portfolio-caption">
+              <h4>West Avenue</h4>
+              <form><input type="checkbox" name="places" value="city"> Want to go</form>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 city-view">
+            
+            <img src="img/34_1.jpg" class="img-responsive" alt="">
+            
+            <div class="portfolio-caption">
+              <h4>Kappy Park</h4>
+              <form><input type="checkbox" name="places" value="city"> Want to go</form>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 city-view">
+            
+            <img src="img/85_1.jpg" class="img-responsive" alt="">
+            
+            <div class="portfolio-caption">
+              <h4>Art Gallery</h4>
+              <form><input type="checkbox" name="places" value="city"> Want to go</form>
+            </div>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </section>
+
+
+
+    <section id="step3">
+      <div class="contentContainer step3">
+         <div class="row">
+           <div class="colorRow"></div>
+         </div>
+        <h1>Add Your Schedule</h1>
+        
+        <div class="schedule" > 
+          <!--Adding AngularJs UI Form -->
+      
+          <div class="scheduleForm" ng-controller="travelBookCtrl">
+            
+            <tabset>
+            
+            <tab heading="Step 1">
+            <form name="data.step1form" class"form-horizontal">
+              <br>
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" class="form-control" id="firstName" placeholder="First Name" ng-model="data.firstName" required>
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" class="form-control" id="lastName" placeholder="Last Name" ng-model="data.lastName" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Email" ng-model="data.email" required>
+              </div>
+              <div class="form-group">
+                <label for="Phone">Phone</label>
+                <input type="tel" class="form-control" id="phone" placeholder="Phone" ng-model="data.phone" required>
+              </div>
+              <button class="btn btn-primary" ng-disabled="!validateStep1()" ng-click="gotoStep2()">Next</button>
+            </form>
+            </tab>
+
+            <tab heading="Step 2" disable="step2.disabled" active="step2.active">
+            <form name="data.step2form">
+              <br>
+              <div class="form-group">
+                <label for="Locations">Locations</label>
+                <span class="label label-danger" data-ng-show="submitted && helpForm.subjectList.$error.required">Required!</span>
+                <select name="subjectList" data-ng-model="data.location" class="form-control" required>
+                  <option ng-repeat="loc in locations" value="{{loc}}">{{loc}}</option>
+                </select>
+              </div>
+              <div ng-cloak="" class="datepickerdemoBasicUsage">
+
+                <md-content>
+                <div class="row">
+                <div class="col-md-6">
+                  <h4 class="left-half">Date Departure</h4>
+                </div>
+                 <div class="col-md-6">
+                   <h4 class="right-half">Date Return</h4>
+                </div>
+                <div class="col-md-6">
+                  
+                  <md-datepicker name="dateField" ng-model="myDate1" md-min-date="minDate" md-max-date="maxDate" md-placeholder="Enter date"></md-datepicker>
+                </div>
+                
+                <div class="col-md-6">
+                 
+                  <md-datepicker ng-model="myDate2" md-min-date="minDate" md-max-date="maxDate" md-placeholder="Enter date" ></md-datepicker>
+                </div>
+                </div>
+                </md-content>
+                <button class="btn btn-primary" ng-disabled="!validateStep2()" ng-click="gotoStep3()">Next</button>
+              </div>
+            </form>
+            </tab>
+
+            <tab heading="Step 3" disable="step3.disabled" active="step3.active">
+            <div>
+              <br>
+              <h3>Itinerary Information:</h3>
+              <strong>{{data.firstName}} {{data.lastName}}</strong> will depart for {{data.location}} on <strong>{{myDate1 | date}}</strong> and return on <strong>{{myDate2 | date}}.</strong>
+              <p>Wanna save the itinerary info?</p>
+              <a ng-href="mailto:{{data.email}}"><button class="btn btn-primary">Send me Email</button></a>
+            </div>
+            </tab>
+            
+          </tabset>
+        </div>
+       </div>
+     </div>
+    </section>
+
+    <footer>
+
+      <h3>Have a Good Ttip!</h3>
+      <span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"><a href="http://kayqiu.me/" target="_blank" >KayQiu</a></span>
+     
+      
+    </footer>
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="js/trips.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js"></script>
+    <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.13.3.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-messages.min.js"></script>
+    <script src="https://cdn.gitcdn.link/cdn/angular/bower-material/v1.1.0-rc4/angular-material.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+    
+    
+  </body>
+</html>
